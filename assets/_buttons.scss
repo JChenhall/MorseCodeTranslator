@@ -28,3 +28,25 @@
               0 0 120px #00b3ff;
               text-align: center;
 }
+
+@media only screen and (max-width: 1920px) {
+    .butt {
+        font-size: 3vh;
+        width: 50%;
+        height: 6vh;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    .butt {
+        font-size: 2vh;
+        width: 70%;
+        height: 6vh;
+        font-weight: 400;
+        letter-spacing: 1px;
+
+    }
+}

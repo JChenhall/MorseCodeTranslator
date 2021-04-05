@@ -261,3 +261,41 @@ margin-bottom: 3%;
 
 
 }
+
+@media only screen and (max-width: 500px) {
+
+  .title {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 200;
+    text-align: center;
+    width: 40%;
+    height: 10vh;
+    letter-spacing: 0.1em;
+    text-shadow: 0 0 10px #00b3ff,
+                0 0 20px #00b3ff,
+                0 0 40px #00b3ff,
+                0 0 80px #00b3ff,
+                0 0 120px #00b3ff;
+  margin-bottom: 3%;
+  }
+ 
+  
+  .lightInForm {
+    position: absolute;
+    top: 32%;
+    left: 50;
+    width: 30%;
+    height: 1vh;
+    background: #fff;
+    border-radius: 30px;
+    backdrop-filter: blur(5px);
+    z-index: 0;
+    box-shadow: 0 0 10px #00b3ff,
+                0 0 20px #00b3ff,
+                0 0 40px #00b3ff,
+                0 0 80px #00b3ff,
+                0 0 120px #00b3ff;
+  }
+
+}

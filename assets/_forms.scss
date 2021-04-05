@@ -46,6 +46,33 @@
         
     }
 
+    @media only screen and (max-width: 1920px) {
+    
+        .form {
+            width: 60%;
+            }
+         
+        }
+    
+    @media only screen and (max-width: 500px) {
+        .form {
+            justify-content: space-evenly;
+            height: 60%;
+            width: 80%;
+            
+                    #inp {
+                        width: 60%;
+                        height: 6vh;
+                        font-size: 3vh; 
+                    }
+                    #out {
+                        width: 80%;
+                        height: 2vh;
+                        font-size: 3vh;
+                    }
+                }
+        }
+    
 
 
 
