@@ -1,0 +1,55 @@
+.MCT {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+    .form {
+        display: flex;
+        align-items:center;
+        justify-content: space-around;
+        flex-direction: column;
+       
+        position: relative;
+        padding-top: 5%;
+        height: 60%;
+        width: 40%;
+        border-radius: 30px;
+        backdrop-filter: blur(5px);
+        background: radial-gradient(at 50% 0%, rgba(4, 217, 255, 0.13), rgba(255,255,255,0.3));
+        input, button {
+          outline: none;
+        
+        }
+        
+                #inp {
+                    width: 40%;
+                    height: 6vh;
+                    font-size: 3vh;
+                    background: none;
+                    color: #00b3ff;
+                    text-align: center;
+                }
+                #out {
+                    width: 40%;
+                    height: 6vh;
+                    font-size: 3vh;
+                    background: none;
+                    color: #fff;
+                    text-align: center;
+                }
+        
+    }
+
+
+
+
+
+
+
+

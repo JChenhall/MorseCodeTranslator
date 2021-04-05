@@ -1,0 +1,15 @@
+{
+  "name": "project3-morse",
+  "version": "1.0.0",
+  "description": "TO DO:\r //1. input #1 - Morse or English letters (toggle between?)",
+  "main": "translator.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.13.0",
+    "jest": "^26.6.3"
+  }
+}

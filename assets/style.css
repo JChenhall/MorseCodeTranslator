@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Varela Round", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: black;
+  background: -moz-linear-gradient(180deg, black 71%, #00b3ff 92%, #00b3ff 96%);
+  background: -webkit-linear-gradient(180deg, black 71%, #00b3ff 92%, #00b3ff 96%);
+  background: linear-gradient(180deg, black 71%, #00b3ff 92%, #00b3ff 96%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#00b3ff",GradientType=1);
+}
+
+.title {
+  color: #fff;
+  font-size: 5em;
+  font-weight: 600;
+  text-align: center;
+  width: 32%;
+  height: 10vh;
+  letter-spacing: 0.1em;
+  text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff, 0 0 80px #00b3ff, 0 0 120px #00b3ff;
+  margin-bottom: 3%;
+}
+
+.lightbar {
+  position: absolute;
+  top: 7%;
+  left: 34%;
+  width: 10px;
+  height: 15%;
+  border-radius: 10px;
+  background: #fff;
+  z-index: 2;
+  box-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff, 0 0 80px #00b3ff, 0 0 120px #00b3ff;
+}
+
+.topLayer {
+  position: absolute;
+  top: 7%;
+  left: 34%;
+  width: 32%;
+  height: 15%;
+  background: #898989;
+}
+
+.lightInForm {
+  position: absolute;
+  top: 35%;
+  left: 50;
+  width: 30%;
+  height: 1vh;
+  background: #fff;
+  border-radius: 30px;
+  backdrop-filter: blur(5px);
+  z-index: 0;
+  box-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff, 0 0 80px #00b3ff, 0 0 120px #00b3ff;
+}
+
+@media only screen and (max-width: 1920px) {
+  .title {
+    color: #fff;
+    font-size: 3em;
+    font-weight: 600;
+    text-align: center;
+    width: 40%;
+    height: 10vh;
+    letter-spacing: 0.1em;
+    text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff, 0 0 80px #00b3ff, 0 0 120px #00b3ff;
+    margin-bottom: 3%;
+  }
+
+  .lightInForm {
+    position: absolute;
+    top: 35%;
+    left: 50;
+    width: 30%;
+    height: 1vh;
+    background: #fff;
+    border-radius: 30px;
+    backdrop-filter: blur(5px);
+    z-index: 0;
+    box-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff, 0 0 80px #00b3ff, 0 0 120px #00b3ff;
+  }
+}
+.butt {
+  font-size: 4vh;
+  width: 30%;
+  height: 6vh;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  color: #fff;
+  z-index: 1;
+  font-weight: 400;
+  font-size: large;
+  letter-spacing: 1px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.butt:hover {
+  letter-spacing: 0.5vw;
+  box-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff, 0 0 80px #00b3ff, 0 0 120px #00b3ff;
+  text-align: center;
+}
+
+.MCT {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  position: relative;
+  padding-top: 5%;
+  height: 60%;
+  width: 40%;
+  border-radius: 30px;
+  backdrop-filter: blur(5px);
+  background: radial-gradient(at 50% 0%, rgba(4, 217, 255, 0.13), rgba(255, 255, 255, 0.3));
+}
+.form input, .form button {
+  outline: none;
+}
+.form #inp {
+  width: 40%;
+  height: 6vh;
+  font-size: 3vh;
+  background: none;
+  color: #00b3ff;
+  text-align: center;
+}
+.form #out {
+  width: 40%;
+  height: 6vh;
+  font-size: 3vh;
+  background: none;
+  color: #fff;
+  text-align: center;
+}

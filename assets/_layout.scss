@@ -1,0 +1,263 @@
+@import "_variability.scss";
+@import "_typography.scss";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $primaryfont-family;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(0,0,0);
+background: -moz-linear-gradient(180deg, rgba(0,0,0,1) 71%, rgba(0,179,255,1) 92%, rgba(0,179,255,1) 96%);
+background: -webkit-linear-gradient(180deg, rgba(0,0,0,1) 71%, rgba(0,179,255,1) 92%, rgba(0,179,255,1) 96%);
+background: linear-gradient(180deg, rgba(0,0,0,1) 71%, rgba(0,179,255,1) 92%, rgba(0,179,255,1) 96%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#00b3ff",GradientType=1);
+  }
+  
+
+.title {
+  color: #fff;
+  font-size: 5em;
+  font-weight: 600;
+  text-align: center;
+  width: 32%;
+  height: 10vh;
+  letter-spacing: 0.1em;
+  text-shadow: 0 0 10px #00b3ff,
+              0 0 20px #00b3ff,
+              0 0 40px #00b3ff,
+              0 0 80px #00b3ff,
+              0 0 120px #00b3ff;
+margin-bottom: 3%;
+}
+.lightbar {
+  position: absolute;
+  top: 7%;
+  left: 34%;
+  width: 10px;
+  height: 15%;
+  border-radius: 10px;
+  background: #fff;
+  z-index: 2;
+  box-shadow: 0 0 10px #00b3ff,
+              0 0 20px #00b3ff,
+              0 0 40px #00b3ff,
+              0 0 80px #00b3ff,
+              0 0 120px #00b3ff;
+// animation: animatelightbar 5s linear infinite;
+//   @keyframes animatelightbar 
+// {
+//   0%,5% 
+//   {
+//     transform: scaleY(0) translateX(0);
+//   }
+//   10%
+//   {
+//     transform: scaleY(1) translateX(0);
+//   }
+//   90%
+//   {
+//     transform: scaleY(1) translateX(calc(1100px - 10px))
+//   }
+//   95%,100%
+//   {
+//     transform: scaleY(0) translateX(calc(1100px - 10px))
+//   }
+// }
+}
+
+.topLayer {
+  position: absolute;
+  top: 7%;
+  left: 34%;
+  width: 32%;
+  height: 15%;
+  background: #898989;
+  // animation: animatetopLayer 10s linear infinite;
+  //   @keyframes animatetopLayer
+
+  // {
+  //   0%,2.5% 
+  //   {
+  //     transform: translateX(0);
+  //   }
+  //   5%
+  //   {
+  //     transform:  translateX(0);
+  //   }
+  //   45%
+  //   {
+  //     transform: translateX(100%)
+  //   }
+  //   47.5%,50%
+  //   {
+  //     transform: translateX(100%)
+  //   }
+  //   50.001%,52.5% 
+  //   {
+  //     transform: translateX(-100%);
+  //   }
+  //   55%
+  //   {
+  //     transform: translateX(-100%);
+  //   }
+  //   95%
+  //   {
+  //     transform: translateX(0%)
+  //   }
+  //   97.5%,100%
+  //   {
+  //     transform: translateX(0%)
+  //   }
+  // }
+}
+
+.lightInForm {
+  position: absolute;
+  top: 35%;
+  left: 50;
+  width: 30%;
+  height: 1vh;
+  background: #fff;
+  border-radius: 30px;
+  backdrop-filter: blur(5px);
+  z-index: 0;
+  box-shadow: 0 0 10px #00b3ff,
+              0 0 20px #00b3ff,
+              0 0 40px #00b3ff,
+              0 0 80px #00b3ff,
+              0 0 120px #00b3ff;
+}
+
+
+
+@media only screen and (max-width: 1920px) {
+
+  .title {
+    color: #fff;
+    font-size: 3em;
+    font-weight: 600;
+    text-align: center;
+    width: 40%;
+    height: 10vh;
+    letter-spacing: 0.1em;
+    text-shadow: 0 0 10px #00b3ff,
+                0 0 20px #00b3ff,
+                0 0 40px #00b3ff,
+                0 0 80px #00b3ff,
+                0 0 120px #00b3ff;
+  margin-bottom: 3%;
+  }
+  // .lightbar {
+  //   position: absolute;
+  //   top: 7%;
+  //   left: 33%;
+  //   width: 5px;
+  //   height: 15%;
+  //   border-radius: 10px;
+  //   background: #fff;
+  //   z-index: 2;
+  //   box-shadow: 0 0 10px #00b3ff,
+  //               0 0 20px #00b3ff,
+  //               0 0 40px #00b3ff,
+  //               0 0 80px #00b3ff,
+  //               0 0 120px #00b3ff;
+  // animation: animatelightbar 5s linear infinite;
+  //   @keyframes animatelightbar 
+  // // {
+  // //   0%,5% 
+  // //   {
+  // //     transform: scaleY(0) translateX(0);
+  // //   }
+  // //   10%
+  // //   {
+  // //     transform: scaleY(1) translateX(0);
+  // //   }
+  // //   90%
+  // //   {
+  // //     transform: scaleY(1) translateX(calc(700px - 10px))
+  // //   }
+  // //   95%,100%
+  // //   {
+  // //     transform: scaleY(0) translateX(calc(700px - 10px))
+  // //   }
+  // // }
+  // }
+  
+  // .topLayer {
+  //   position: absolute;
+  //   top: 7%;
+  //   left: 33%;
+  //   width: 34%;
+  //   height: 15%;
+  //   background: #898989;
+  //   animation: animatetopLayer 10s linear infinite;
+  //     @keyframes animatetopLayer
+  
+  //   {
+  //     0%,2.5% 
+  //     {
+  //       transform: translateX(0);
+  //     }
+  //     5%
+  //     {
+  //       transform:  translateX(0);
+  //     }
+  //     45%
+  //     {
+  //       transform: translateX(100%)
+  //     }
+  //     47.5%,50%
+  //     {
+  //       transform: translateX(100%)
+  //     }
+  //     50.001%,52.5% 
+  //     {
+  //       transform: translateX(-100%);
+  //     }
+  //     55%
+  //     {
+  //       transform: translateX(-100%);
+  //     }
+  //     95%
+  //     {
+  //       transform: translateX(0%)
+  //     }
+  //     97.5%,100%
+  //     {
+  //       transform: translateX(0%)
+  //     }
+  //   }
+  // }
+  
+  .lightInForm {
+    position: absolute;
+    top: 35%;
+    left: 50;
+    width: 30%;
+    height: 1vh;
+    background: #fff;
+    border-radius: 30px;
+    backdrop-filter: blur(5px);
+    z-index: 0;
+    box-shadow: 0 0 10px #00b3ff,
+                0 0 20px #00b3ff,
+                0 0 40px #00b3ff,
+                0 0 80px #00b3ff,
+                0 0 120px #00b3ff;
+  }
+
+
+
+
+
+}
